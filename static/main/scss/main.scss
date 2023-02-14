@@ -1,0 +1,15 @@
+// site wide uses
+@use 'variables' as *;
+@use 'mixins';
+@use 'navigation';
+
+// different pages
+@use 'homepage';
+@use 'links';
+@use 'redirect';
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}

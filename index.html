@@ -1,0 +1,379 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="static/main/css/main.css">
+    <link rel="shortcut icon" href="/static/main/img/icons/logo.svg" type="image/x-icon">
+    <!--MAIN FONT-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <!--HANDWRITTEN FONT-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Shadows+Into+Light&display=swap" rel="stylesheet">
+    <!--LINK PREVIEW STUFF-->
+    <meta property="og:image" href="/static/main/img/assets/preview.jpg" />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://piercenhughes.com/"/>
+    <meta property="og:title" content="Piercen Hughes Front End Web Developer" />
+    <meta property="og:description" content="Piercen is a front end developer with one year of experience - who is seeking a full time developer position"/>
+        <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-VZNFG1ZTZH"></script>
+    <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'G-VZNFG1ZTZH');
+    </script>
+    <title>Piercen Hughes</title>
+</head>
+<body>
+    <!--NAV ELEMENT BTN-->
+    <nav class="main-nav">
+        <img src="/static/main/img/icons/bblue-menu.svg" alt="" onclick="mobileMenu('open')">
+    </nav>
+    <div id="menu-background" class="menu-closed">
+        <div class="close-menu-icon">
+            <img src="/static/main/img/icons/white-menu.svg" alt="" onclick="mobileMenu('close')">
+        </div>
+        <ul class="menu-elements">
+            <a href="#home-header">
+                <li class="item">Home</li>
+            </a>
+            <a href="#home-about">
+                <li class="item">About</li>
+            </a>
+            <a href="#home-work">
+                <li class="item">Work</li>
+            </a>
+            <a href="#home-contact">
+                <li class="item">Contact</li>
+            </a>
+            <div class="spacer"></div>
+            <a href="tel:2103077697">
+                <li class="item alt">210-307-7697</li>
+            </a>
+            <a href="mailto:piercenhughes1@yahoo.com">
+                <li class="item alt">piercenhughes1@yahoo.com</li>
+            </a>
+        </ul>
+        <div class="menu-logo">
+            <img src="/static/main/img/icons/white-logo.png" alt="piercen-hughes-logo">
+        </div>
+    </div>
+    <!--HEADER/LANDING PAGE-->
+    <section id="home-header" class="home-header">
+        <!--TOP CORNER CURSIVE LOGO AND BORDER LINES-->
+        <div class="logo-area">
+            <div class="row-one">
+                <img src="/static/main/img/icons/white-logo.png" alt="piercen-hughes-logo" class="logo">
+                <div class="horizontal-line-white"></div>
+            </div>
+            <div class="row-two">
+                <div class="vertical-white-line"></div>
+            </div>
+        </div>
+        <!--HEADSHOT IMAGE BOX-->
+        <div class="img-box" id="header-img">
+            <img src="/static/main/img/assets/bloHeadshotTest.png" alt="piercen-hughes-front-end-web-developer">
+        </div>
+        <!--WHITE COLORED BACKGROUND CTA SIDE-->
+        <div class="info-side">
+            <!--FIXED NAV AREA-->
+            <div class="text-area">
+                <h2 class="standout" id="header-standout">Hello, I'm Piercen Hughes.</h2>
+                <h3 class="subtext" id="header-sub">I Build Modern and Responsive Websites.</h3>
+                <a href="#home-contact" class="ctaLink" id="header-primary-link">
+                    <p>Let's Work!</p>
+                </a>
+                <div class="alt-links" id="header-sub-links">
+                    <a href="https://github.com/pie4fools" target="_blank">
+                        <div class="img-area" target="_blank">
+                            <img src="/static/main/img/icons/flat-github.svg" alt="github-icon">
+                        </div>
+                    </a>
+                    <a href="https://www.linkedin.com/in/piercen-hughes-617044188/" target="_blank">
+                        <div class="img-area">
+                            <img src="/static/main/img/icons/flat-linkedin.svg" alt="linkedin-icon">
+                        </div>
+                    </a>
+                    <a href="/static/main/files/PiercenHResume20232.pdf" target="_blank">
+                        <div class="img-area">
+                            <img src="/static/main/img/icons/flat-resume.svg" alt="piercen-hughes-resume">
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--ABOUT ME-->
+    <section class="home-about" id="home-about">
+        <!--WHERE ALL CONTENT GOES TO KEEP WIDTH CORRECT-->
+        <div class="content-container">
+            <div class="title-area">
+                <h3 class="section-title">Welcome!</h3>
+                <p class="section-subtitle">I code beautiful websites from scratch</p>
+                <a class="resume-link" href="/static/main/files/PiercenHResume20232.pdf" target="_blank">
+                    <p>Download My Resume</p>
+                </a>
+            </div>
+            <div class="flex-inline">
+                <div class="text-area">
+                    <div class="content-options">
+                        <button id="short-about-btn" class="aboutBtn active-about-btn">Short Bio</button>
+                        <button id="long-about-btn" class="aboutBtn inactive-about-btn">Longer Bio</button>
+                    </div>
+                    <div class="box">
+                        <p class="text-subtitle">&lt;professional&gt;</p>
+                        <p class="emphasized-text" id="professionalAboutTxt">
+                            I've been coding for one year, I've worked with a handful of small clients so far and I love it.
+                        </p>
+                        <p class="text-subtitle">&lt;/professional&gt;</p>
+                    </div>
+    
+                    <div class="box">
+                        <p class="text-subtitle">&lt;personal&gt;</p>
+                        <p class="personal-text" id="personalAboutTxt">I love learning, gaming, and hanging out with my family</p>
+                        <p class="text-subtitle">&lt;/personal&gt;</p>
+                    </div>
+                </div>
+                <div class="img-area">
+                    <div class="img-box">
+                        <img src="/static/main/img/assets/about-ph.png" alt="front-end-developer-piercen-hughes">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--ENTIRE PORTFOLIO SECTION-->
+    <section class="home-portfolio" id="home-work">
+        <!--CONTENT AREA IN ORDER TO CENTER AND MAX-WIDTH WITH FULL BACKGROUND-->
+        <div class="content-container">
+            <!--SECTION TITLE-->
+            <div class="title-area">
+                <h3 class="section-title">Recent Projects</h3>
+                <p class="section-subtitle">Consisting of but not limited to</p>
+            </div>
+            <!--PORTFOLIO INTRO TEXT BOX-->
+            <div class="text-box">
+                <p class="intro-text">I've been fortunate to work with a diverse clientele early in my career.</p>
+            </div>
+            <!--SECTION CONTENT-->
+            <div class="two-box-area">
+                <!--Container Title-->
+                <!--Portfolio site container-->
+                <div class="two-box-container">
+                    <!--Portfolio Box-->
+                    <div class="box">
+                        <div class="overlay-img-box">
+                            <img src="/static/main/img/assets/mydateplanlogo.png" alt="medical-compliance-group-logo">
+                            <p class="help-text">+</p>
+                        </div>
+                        <div class="box-title">My Date Night Planner</div>
+                        <p class="about">Freelance client's innovative idea that I brought to life. I designed and developed a clean website that uses a interactive multi-step form.</p>
+                        <div class="tech-icons">
+                            <img src="/static/main/img/icons/blue-html.svg" alt="html-developer" class="icon">
+                            <img src="/static/main/img/icons/blue-css.svg" alt="css-developer" class="icon">
+                            <img src="/static/main/img/icons/blue-sass.svg" alt="sass-developer" class="icon">
+                            <img src="/static/main/img/icons/blue-illustrator.svg" alt="adobe-illustrator" class="icon">
+                            <img src="/static/main/img/icons/blue-photoshop.svg" alt="adobe-photoshop" class="icon">
+                            <img src="/static/main/img/icons/blue-ubuntu.svg" alt="server-admin" class="icon">
+                            <img src="/static/main/img/icons/blue-apache.svg" alt="apache-webserver-manager" class="icon">
+                        </div>
+                        <p class="services">Web Design • Web Developement • Logo Design</p>
+                        <div class="links">
+                            <a href="https://github.com/pie4fools" target="_blank">
+                                <div class="link regular">
+                                    <div class="img-box">
+                                        <img src="/static/main/img/icons/blue-github.svg" alt="mydatenightplanner-code-link">
+                                    </div>
+                                    <h4 class="title">Github</h4>
+                                </div>
+                            </a>
+                            <a href="https://master--meek-klepon-7b9a84.netlify.app/" target="_blank">
+                                <div class="link emphasize">
+                                    <div class="img-box">
+                                        <img src="/static/main/img/icons/blue-www.svg" alt="my-date-night-planner-website-link">
+                                    </div>
+                                    <h4 class="title">Project</h4>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                    <!--Portfolio Box-->
+                    <div class="box">
+                        <div class="overlay-img-box">
+                            <img src="/static/main/img/assets/shime-overlay.png" alt="shime-logo">
+                            <p class="help-text">+</p>
+                        </div>
+                        <div class="box-title">Shime (Chime Clone)</div>
+                        <p class="about">Beautiful responsive react website with styled components. Sign-up and login are ready to be connected to a backend</p>
+                        <div class="tech-icons">
+                            <img src="/static/main/img/icons/blue-html.svg" alt="html-developer" class="icon">
+                            <img src="/static/main/img/icons/blue-css.svg" alt="css-developer" class="icon">
+                            <img src="/static/main/img/icons/blue-sass.svg" alt="sass-developer" class="icon">
+                            <img src="/static/main/img/icons/blue-illustrator.svg" alt="adobe-illustrator" class="icon">
+                            <img src="/static/main/img/icons/blue-photoshop.svg" alt="adobe-photoshop" class="icon">
+                            <img src="/static/main/img/icons/blue-ubuntu.svg" alt="server-admin" class="icon">
+                            <img src="/static/main/img/icons/blue-apache.svg" alt="apache-webserver-manager" class="icon">
+                        </div>
+                        <p class="services">Web Design • Web Developement</p>
+                        <div class="links">
+                            <a href="https://github.com/pie4fools/react-website-v2" target="_blank">
+                                <div class="link regular">
+                                    <div class="img-box">
+                                        <img src="/static/main/img/icons/blue-github.svg" alt="shime-code-link">
+                                    </div>
+                                    <h4 class="title">Github</h4>
+                                </div>
+                            </a>
+                            <a href="https://master--beautiful-zuccutto-11d061.netlify.app/" target="_blank">
+                                <div class="link emphasize">
+                                    <div class="img-box">
+                                        <img src="/static/main/img/icons/blue-www.svg" alt="shime-website-link">
+                                    </div>
+                                    <h4 class="title">Project</h4>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+
+                    <!--Portfolio Box-->
+                    <div class="box">
+                        <div class="overlay-img-box">
+                            <img src="/static/main/img/assets/p-overlay.png" alt="portfolio-p-logo">
+                            <p class="help-text">+</p>
+                        </div>
+                        <div class="box-title">Portfolio Project</div>
+                        <p class="about">Using HTML/CSS/JS I developed a modern portfolio for commerical use. Previously I was using a react/tailwind portfolio, but I wanted to showcase my skills using vanilla tools.</p>
+                        <div class="tech-icons">
+                            <img src="/static/main/img/icons/blue-html.svg" alt="html-developer" class="icon">
+                            <img src="/static/main/img/icons/blue-css.svg" alt="css-developer" class="icon">
+                            <img src="/static/main/img/icons/blue-sass.svg" alt="sass-developer" class="icon">
+                            <img src="/static/main/img/icons/blue-illustrator.svg" alt="adobe-illustrator" class="icon">
+                            <img src="/static/main/img/icons/blue-photoshop.svg" alt="adobe-photoshop" class="icon">
+                        </div>
+                        <p class="services">Web Design • Web Developement • Logo Design</p>
+                        <div class="links">
+                            <a href="https://github.com/pie4fools/sassjsportfolio" target="_blank">
+                                <div class="link regular">
+                                    <div class="img-box">
+                                        <img src="/static/main/img/icons/blue-github.svg" alt="portfolio-code-link">
+                                    </div>
+                                    <h4 class="title">Github</h4>
+                                </div>
+                            </a>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+        
+                </div>
+            </div>
+        </div>
+
+    </section>
+    <!--entire carousel container-->
+    <section class="past-client-area">
+        <div class="content-container">
+            <!--secion title-->
+            <div class="title-area">
+                <h3 class="section-title">Who I've Worked With</h3>
+                <p class="section-subtitle">A great group of small clients - really</p>
+            </div>
+            <!--image-container-->
+            <div class="images-and-text">
+                <div class="image-container">
+                    <div class="img-box">
+                        <img src="/static/main/img/icons/mydateplanlogo-clear.png" alt="" class="client client-logos">
+                    </div>
+                    <div class="img-box">
+                        <img src="/static/main/img/icons/shimelogo-clear.png" alt="" class="client client-logos">
+                    </div>
+                    <div class="img-box">
+                        <img src="/static/main/img/icons/white-hostit.svg" alt="" class="client client-logos">
+                </div>
+                <div class="text-container">
+                    <p class="client-overview">
+
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="contact-form-area" id="home-contact">
+        <div class="content-container">
+            <div class="title-area">
+                <h3 class="section-title">How To Reach Me</h3>
+                <p class="section-subtitle">I'm available, it's free - let's talk!</p>
+            </div>
+            <div class="form-area">
+                <form action="https://formsubmit.co/piercenhughes1@yahoo.com" method="POST" class="main-contact">
+                    <input type="text" name="fName" id="firstname" placeholder="First Name">
+                    <input type="text" name="lName" id="lastname" placeholder="Last Name">
+                    <input type="email" name="email" id="email" placeholder="you@example.com">
+                    <input type="tel" name="tel" id="tel" placeholder="(123)-456-7890">
+                    <input type="text" name="message" id="message" placeholder="Message here">
+                    <button type="submit">Submit</button>
+
+                    <!--formSubmit stuff-->
+                    <!--email layout-->
+                    <input type="hidden" name="_template" value="table">
+                    <!--email subject-->
+                    <input type="hidden" name="_subject" value="New submission!">
+                    <!--redirect after form-->
+                    <input type="hidden" name="_next" value="https://brandonlozano.com/thanks">
+                </form>
+                <div class="alt-contact">
+                    <h2 class="header">Other Methods</h2>
+                    <div class="text">
+                        <a href="tel:2103077697">
+                            <h4 class="contact-info">210-307-7697</h4>
+                        </a>
+                        <a href="mailto:piercenhughes1@yahoo.com">
+                            <h4 class="contact-info">piercenhughes1@yahoo.com</h4>
+                        </a>
+                    </div>
+                    <div class="alt-links">
+                        <a href="https://github.com/pie4fools" target="_blank">
+                            <div class="icon-box">
+                                <img src="/static/main/img/icons/flat-github.svg" alt="github-icon">
+                            </div>
+                        </a>
+                        <a href="https://www.linkedin.com/in/piercen-hughes-617044188/" target="_blank">
+                            <div class="icon-box">
+                                <img src="/static/main/img/icons/flat-linkedin.svg" alt="linked-inicon">
+                            </div>
+                        </a>
+                        <a href="/static/main/files/PiercenHResume20232.pdf" target="_blank">
+                            <div class="icon-box">
+                                <img src="/static/main/img/icons/flat-resume.svg" alt="resume-icon">
+                            </div>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-logo">
+                <div class="black-line-left"></div>
+                <div class="img-box">
+                    <img src="/static/main/img/icons/black-logo.png" alt="piercen-hughes-logo">
+                </div>
+                <div class="black-line-right"></div>
+            </div>
+        </div>
+    </section>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="/static/main/js/aboutPageToggle.js"></script>
+    <script src="/static/main/js/anchorScroll.js"></script>
+    <script src="/static/main/js/mobileMenu.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.9.1/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.9.1/ScrollTrigger.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.9.1/TextPlugin.min.js"></script>
+    <script src="/static/main/js/animations.js"></script>
+</body>
+</html>

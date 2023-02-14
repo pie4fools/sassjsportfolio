@@ -1,0 +1,42 @@
+@use 'variables' as *;
+@use 'mixins' as *;
+
+.form-success-container{
+    background: $darkBackground;
+    min-height: 100vh;
+    min-width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    .content-container{
+        width: 95%;
+        max-width: 500px;
+        padding: 25px 10px;
+        @include flexCleanColumn();
+        flex-direction: column;
+        .callout{
+            color: $secondaryBackground;
+            font-size: 30px;
+            text-align: center;
+            width: 80%;
+            padding: 10px 0px;
+        }
+        .name{
+            color: $mainBackground;
+            font-size: 24px;
+            padding: 10px 0px;
+        }
+        a{
+            text-decoration: none;
+            padding-top: 20px;
+            font-size: 20px;
+            font-family: $altFont;
+            color: $offWhite;
+            transition: all 1s ease-in-out;
+            &:hover{
+                text-decoration: underline;
+                margin-left: 10px;
+            }
+        }
+    }
+}

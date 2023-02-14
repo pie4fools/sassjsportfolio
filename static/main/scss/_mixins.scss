@@ -1,0 +1,72 @@
+@use 'variables' as *;
+
+//POSITIONING
+@mixin centerObj {
+    margin-left: auto;
+    margin-right: auto;
+}
+@mixin centerVertHor {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+//FLEX BOX
+@mixin flexBoxCenterAndEven{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-evenly;
+}
+@mixin flexCleanColumn{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+}
+// TEXT
+@mixin boxTitle(){
+    font-size: 26px;
+    color: $offWhite;
+    font-weight: 300;
+}
+@mixin boxSummary {
+    color: white;
+    padding: 10px 0px;
+}
+@mixin titleBox(){
+    margin-left: 5%;
+}
+@mixin containerTitle($color){
+    color: $color;
+    font-size: 34px;
+}
+@mixin containerSubtitle($color){
+    color: $color;
+    font-size: 22px;
+    letter-spacing: 1px;
+    font-family: 'Shadows Into Light', cursive;
+}
+
+// PADDING
+@mixin basicSectionPaddingWidth{
+    width: 90%;
+    max-width: 1200px;
+    padding: 20px 0px;
+}
+@mixin mainContentPadding {
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+
+// ANIMATIONS
+@mixin bigContentContainer{
+    width: 100%;
+    max-width: 1200px;
+    @include centerObj();
+}
+@mixin test(){
+    @media screen and (max-width: 900px) {
+        width: 90%;
+    }
+}
