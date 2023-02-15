@@ -1,7 +1,7 @@
 $( document ).ready(function() {
     // content for about boxs
     let content = {
-        shortProf: "I've been coding for two years, I've worked with a handful of small businesses so far and I love it.",
+        shortProf: "I've been coding for one year, I've worked with a handful of small businesses so far and I love it.",
         shortPers: "My favorite activity is gaming - my second favorite is hanging out with my Girlfriend.",
         longProf: "I'm a self-taught/bootcamp grad front-end web developer with one year of experience. I've built a handful of sites from scratch for small businesses. For every project, I test and implement new design features - giving myself a toolbox that I can grab from on any project.",
         longPers: "When I'm not coding, I like to spend time with my family. I do know how to juggle - currently I am juggling a new home purchase, freelance projects, and learning everyday.",
